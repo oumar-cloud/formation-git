@@ -1,0 +1,67 @@
+body {
+    background-color: #b3d9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.controller {
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 50px;
+    width: 400px;
+    height: 200px;
+}
+
+.left-cross, .right-buttons {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.horizontal-bar, .vertical-bar {
+    background-color: black;
+    position: absolute;
+}
+
+.horizontal-bar {
+    width: 60px;
+    height: 20px;
+    top: 40px;
+    left: 20px;
+}
+
+.vertical-bar {
+    width: 20px;
+    height: 60px;
+    top: 20px;
+    left: 40px;
+}
+
+.middle {
+    width: 80px;
+    height: 10px;
+    background-color: white;
+}
+
+.right-buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 8px solid black;
+    border-radius: 50%;
+}
